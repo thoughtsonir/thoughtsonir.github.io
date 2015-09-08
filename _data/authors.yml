@@ -1,0 +1,16 @@
+# Site navigation links
+
+mathieu_andreux:
+  name: Mathieu Andreux
+  web: https://github.com/andreuxmath
+  email: mathieu.andreux@gmail.com
+  bio: "True cheese eater"
+  avatar: mathieu_web.jpg
+
+sira_ferradans:
+  name: Sira Ferradans
+  web: https://github.com/siraferradans
+  email: sira.ferradans@gmail.com
+  bio: "Galician in style and spirit"
+  avatar: bio-photo-sira.jpeg
+  twitter: siraferradans

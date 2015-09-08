@@ -1,0 +1,48 @@
+# Site wide configuration
+
+title: Thoughts on Information Representation
+description: Figuring out how to get information from data
+logo: logo.png # 120x120 px default image used for Twitter summary card
+teaser: teaser.jpg # 400x250 px default teaser image used in image archive grid
+locale:
+url:
+
+# Jekyll configuration
+
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+  - jekyll-archives
+
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#
+analytics :
+provider : google
+google :
+tracking_id : 'UA-33623835-1'
+getclicky :
+site_id :
+
+
+# Site owner
+owner: Data group
+name:
+  email: sira.ferradans@gmail.com
+  twitter:
+  google:
+    ad-client: 
+    ad-slot: 
+  bio: 
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+disqus-shortname:
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

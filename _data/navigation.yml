@@ -1,0 +1,21 @@
+# Site navigation links
+
+- title: Signal Processing
+  url: /signalprocessing/
+  excerpt: "Posts related to Signal Processing, specially related to Computer Vision and Audio Analysis."
+  image: kanizsa.jpg
+
+- title: Machine Learning
+  url: /machinelearning/
+  excerpt: "Comments related to Machine Learning"
+  image: ML.png
+
+- title: Code
+  url: /code/
+  excerpt: "Code and demos, mostly in Matlab and Torch"
+  image: code.png
+
+- title: About
+  url: /about/
+  excerpt: "What to find in this blog, who is behind it, etc"
+  image: about.png

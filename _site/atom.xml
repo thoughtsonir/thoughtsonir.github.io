@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Thoughts on Information Representation</title>
+  <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.4.0</generator>
+    <icon>/apple-touch-icon-precomposed.png</icon>
+  <subtitle>Figuring out how to get information from data</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="/" rel="alternate" type="text/html"/>
+  <updated>2015-09-08T19:46:39+02:00</updated>
+  <id>/</id>
+  <author>
+    <name></name>
+    <uri>/</uri>
+    
+  </author>
+
+  
+  <entry>
+    <title>Code-related links</title>
+    <link href="/code/interesting-code-links/"/>
+    <updated>2015-07-29T00:00:00+02:00</updated>
+    <id>/code/interesting-code-links</id>
+    <author>
+      <name></name>
+      <uri>/</uri>
+      
+    </author>
+    <content type="html">
+      
+      &lt;p&gt;There are a few sites that are definetely worth checking if you are looking for (research) code related to computer vision, music analysis or machine learning: &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://gpeyre.github.io/&quot;&gt;Gabriel Peyré&lt;/a&gt;: CNRS researcher working on image processing, computer graphics and applied math, in general. You can find many tutorials and links to important research papers on sparsity and wavelets, among other things.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.di.ens.fr/data/software/&quot;&gt;data group&lt;/a&gt;: Group lead by Stephane Mallat, which is lately working on the applications of the Scattering transform to music analysis, computer vision, time series or language processing. 
+&lt;a href=&quot;http://ipol.im/&quot;&gt;ipol&lt;/a&gt;: journal with peer-reviewed code and online demos.&lt;/p&gt;
+
+&lt;p&gt;This will be an on-going post, as we discover new interesting links.&lt;/p&gt;
+
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Comments on ICML 2015</title>
+    <link href="/machinelearning/Nice-remarks-on-ICML/"/>
+    <updated>2015-07-18T00:00:00+02:00</updated>
+    <id>/machinelearning/Nice-remarks-on-ICML</id>
+    <author>
+      <name></name>
+      <uri>/</uri>
+      
+    </author>
+    <content type="html">
+      
+      &lt;p&gt;I went to &lt;a href=&quot;http://icml.cc/2015/&quot;&gt;ICML&lt;/a&gt; last week, and it was clear that deep learning is still creating a huge hype. Althought, there was a very interesting warning in a plenary talk:  &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;We are using data as proxies for concepts&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;Léon Bottou (Facebook AI, Research), &lt;em&gt;Two high stakes challenges in machine learning&lt;/em&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Deep learning algorithms use a huge amount of data to train on the detection of elements of a certain ‘category’. For instance, in computer vision, a neural network is feed with thousands of images of a cars, in different situations, so the system can detect a car in a new image that it has not seen before. An interesting example he showed, was a car in a non-typical situation: inside a swimming pool. In this case, the system failed to recognize it. Of course, this may be a very important situation to detect in order to warn, for instance, the police. This failure was most probably due to the fact that the images that were used in the training set, didn’t show this situation, there were not enough examples for the system to learn that a car might be in a swimming pool, after all. &lt;/p&gt;
+
+&lt;p&gt;Another very interesting aspect was the final panel discussion. All the participants were very much into the deep learning research community, so I missed dissonant opinions. Anyway, a question that somebody in the audience posed, and had a very interesting answer, was if we should be afraid of this new artificial intelligence that we do not understand. The answer was very simiar from all of them “no”. I believe that they are completely right. We are teaching now machines to make sentences from a picture, a 2 year old kid can do this. What should be worrying us is the following: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;how humans are going to be dealing with all this new information. Information is power, as we have seen in the news lately (Snowden case, for instance), and humans are good at abusing power, thus a very thorough analysis should be done. 
+&lt;/li&gt;
+&lt;li&gt;The data analysis community should not make the population have to decided between participating in the world vs. giving all my data to internet entities. The machine learning community should develop tools to allow anonimity on the internet.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Welcome to our blog</title>
+    <link href="/first-post/"/>
+    <updated>2015-07-01T00:00:00+02:00</updated>
+    <id>/first-post</id>
+    <author>
+      <name></name>
+      <uri>/</uri>
+      
+    </author>
+    <content type="html">
+      
+      &lt;p&gt;Welcome to out new blog. We are a group of researchers at the ENS in Paris, interested in data science.  The idea of this blog is to share ideas, code and general thoughts on any topic related to data analysis, with special emphasis on music analysis, computer vision, information retrieval, or just, generally, on the application of math in technology. We will also be posting code related to the projects we are working on, as links to papers that we find specially interesting. This will give an idea of what is going on in our area of expertise. &lt;/p&gt;
+
+&lt;p&gt;Feel free to send any recommendations, comments, or also code to be posted to any of the authors.&lt;/p&gt;
+
+
+    </content>
+  </entry>
+  
+  
+</feed>
