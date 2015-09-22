@@ -4,7 +4,7 @@ title:  McGurk Effect
 date:   2015-09-22 
 categories: [signalprocessing]
 image:
-    teaser: men_talking.png
+    teaser: men_talking.jpeg
 author: sira_ferradans
 ---
 
