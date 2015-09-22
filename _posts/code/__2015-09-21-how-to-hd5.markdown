@@ -1,0 +1,41 @@
+---
+layout: article
+title:  "How to exchange information between torch and matlab"
+date:   2015-09-21
+categories: [code]
+image:
+   teaser: code.png
+author: sira_ferradans
+---
+
+I have seen in the web several articles complaining that it was difficult to load information generated from Matlab into Torch. A way that I found that is straight forward and fast is using the hd5 format. This format has been defined by the people from DeepMind company in London. You can find all the information about the installation [here][installation]. 
+
+
+<h3 id="body-text">From Matlab to Torch</h3>
+
+
+The hd5 format defines within the file a set of 'data bases' where you store your data. For instance, we have extracted or generated some data that we would like to feed to a Neural Network in torch. We have the data for the train set and for the testing set. Let's start by saving first the training dataset in Matlab. Our training set is a Matlab matrix called M_training. The first thing is to create the h5 file and initialize the database with its size and type ('double'). 
+
+file ='./data_for_training.h5'; 
+h5create(file,'/training',size(M_training),'Datatype','double');
+h5write(file,'/training',M_training); 
+
+Now, we can save in the testing data base our testing variable 'M_testing'
+
+h5create(file,'/testing',size(M_testing),'Datatype','double');
+h5write(file,'/testing',M_testing);
+
+
+We have finished the Matlab part. To load this data in torch, 
+
+<h3 id="body-text">From Torch to Matlab</h3>
+
+
+To read in Matlab the variable 'processed_variable' from the file 'outputtest.h5' into the variable 'x', you just need the following:
+
+x=h5read('./outputtest.h5','/processed_variable'); 
+
+
+
+[installation] : https://github.com/deepmind/torch-hdf5
+

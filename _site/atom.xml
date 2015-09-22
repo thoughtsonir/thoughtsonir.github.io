@@ -7,7 +7,7 @@
   <subtitle>Figuring out how to get information from data</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2015-09-08T19:46:39+02:00</updated>
+  <updated>2015-09-22T16:50:16+02:00</updated>
   <id>/</id>
   <author>
     <name></name>
@@ -17,10 +17,34 @@
 
   
   <entry>
+    <title>McGurk Effect</title>
+    <link href="/signalprocessing/McGurk-Effect/"/>
+    <updated>2015-09-22T00:00:00+02:00</updated>
+    <id>/signalprocessing/McGurk-Effect</id>
+    <author>
+      <name></name>
+      <uri>/</uri>
+      
+    </author>
+    <content type="html">
+      
+      &lt;p&gt;It is well known that our brain is able merge different kinds of information to get a better understanding of the world. For instance, in a party, with much noise, the brain uses the visual information given by the motion of the lips, together with the auditive information to better understand the person that is speaking. But in some cases, our perception of the sound might change just with a change in the image.&lt;/p&gt;
+
+&lt;p&gt;A nice example of this is the ‘&lt;a href=&quot;http://www.nature.com/nature/journal/v264/n5588/abs/264746a0.html&quot;&gt;McGurk Effect&lt;/a&gt;’, that shows that our brain ‘hears’ what it sees. You can see an example here:&lt;/p&gt;
+
+&lt;iframe width=&quot;656&quot; height=&quot;369&quot; src=&quot;https://www.youtube.com/embed/G-lN8vWm3m0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The idea is that, when looking at somebody talking, the sound that we understand is in accordance with what we see. So, if the image is changed, but not the sound, our perception of the sound changes. &lt;/p&gt;
+
+
+    </content>
+  </entry>
+  
+  <entry>
     <title>Code-related links</title>
-    <link href="/code/interesting-code-links/"/>
+    <link href="/code/interesting-code-links%20copy/"/>
     <updated>2015-07-29T00:00:00+02:00</updated>
-    <id>/code/interesting-code-links</id>
+    <id>/code/interesting-code-links copy</id>
     <author>
       <name></name>
       <uri>/</uri>
@@ -32,8 +56,13 @@
 
 &lt;p&gt;&lt;a href=&quot;http://gpeyre.github.io/&quot;&gt;Gabriel Peyré&lt;/a&gt;: CNRS researcher working on image processing, computer graphics and applied math, in general. You can find many tutorials and links to important research papers on sparsity and wavelets, among other things.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.di.ens.fr/data/software/&quot;&gt;data group&lt;/a&gt;: Group lead by Stephane Mallat, which is lately working on the applications of the Scattering transform to music analysis, computer vision, time series or language processing. 
-&lt;a href=&quot;http://ipol.im/&quot;&gt;ipol&lt;/a&gt;: journal with peer-reviewed code and online demos.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://spams-devel.gforge.inria.fr/&quot;&gt;SPArse Modeling Software&lt;/a&gt;: package developed in France and US. It implements algorithms on Sparse coding and Dictionary learning. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://torch5.sourceforge.net/manual/newbieTutorial.html&quot;&gt;Torch&lt;/a&gt;: Newly developed language optimized to deal with large amount of data. There are libraries with already implemented neural networks, autoencoders, and other methods related to deep learning. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.di.ens.fr/data/software/&quot;&gt;data group&lt;/a&gt;: Group lead by Stephane Mallat, which is lately working on the applications of the Scattering transform to music analysis, computer vision, time series or language processing. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ipol.im/&quot;&gt;ipol&lt;/a&gt;: journal with peer-reviewed code and online demos.&lt;/p&gt;
 
 &lt;p&gt;This will be an on-going post, as we discover new interesting links.&lt;/p&gt;
 
@@ -87,7 +116,7 @@
     </author>
     <content type="html">
       
-      &lt;p&gt;Welcome to out new blog. We are a group of researchers at the ENS in Paris, interested in data science.  The idea of this blog is to share ideas, code and general thoughts on any topic related to data analysis, with special emphasis on music analysis, computer vision, information retrieval, or just, generally, on the application of math in technology. We will also be posting code related to the projects we are working on, as links to papers that we find specially interesting. This will give an idea of what is going on in our area of expertise. &lt;/p&gt;
+      &lt;p&gt;Welcome to our new blog. We are a group of researchers at the ENS in Paris, interested in data science.  The idea of this blog is to share ideas, code and general thoughts on any topic related to data analysis, with special emphasis on music analysis, computer vision, information retrieval, or just, generally, on the application of math to technology. We will also be posting code related to the projects we are working on, as links to papers that we find specially interesting. This will give an idea of what is going on in our area of expertise. &lt;/p&gt;
 
 &lt;p&gt;Feel free to send any recommendations, comments, or also code to be posted to any of the authors.&lt;/p&gt;
 
